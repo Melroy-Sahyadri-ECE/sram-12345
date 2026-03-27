@@ -206,18 +206,18 @@ SRAM-PUF System Testbench (Simplified)
 
 [TEST 1] Starting Enrollment...
 [PASS] Enrollment completed successfully
-  Helper Data: <128-bit hex>
-  Key Output:  <256-bit hex>
+  Helper Data: 0df3bb98babf47f25f8afc7901ff72ad
+  Key Output:  21296668cb250b10a09c7160c89acddb6f27c4d0b04eb6336e9f43afae3de492
 
 [TEST 2] Starting Reconstruction...
 [PASS] Reconstruction completed successfully
-  Key Output: <256-bit hex>
+  Key Output: 21296668cb250b10a09c7160c89acddb6f27c4d0b04eb6336e9f43afae3de492
 [PASS] Keys match! PUF system working correctly.
 
 [TEST 3] Testing multiple reconstructions...
-  Reconstruction Key: <same key>
-  Reconstruction Key: <same key>
-  Reconstruction Key: <same key>
+  Reconstruction Key: 21296668cb250b10a09c7160c89acddb6f27c4d0b04eb6336e9f43afae3de492
+  Reconstruction Key: 21296668cb250b10a09c7160c89acddb6f27c4d0b04eb6336e9f43afae3de492
+  Reconstruction Key: 21296668cb250b10a09c7160c89acddb6f27c4d0b04eb6336e9f43afae3de492
 
 ========================================
 Testbench Complete
